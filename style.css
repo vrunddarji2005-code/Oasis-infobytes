@@ -1,0 +1,136 @@
+.header-image {
+    display: flex;
+    margin: 20px 20px;
+}
+
+.multicolor-text {
+    font-size: flex; 
+    color: transparent;
+    background: linear-gradient(to right, rgb(245, 6, 6), rgb(255, 166, 0), rgba(236, 236, 28, 0.952), rgb(2, 129, 2), rgb(2, 2, 249), rgb(75, 0, 130), rgb(238, 130, 238));
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 50px 300px 0px 0px;
+}
+
+.skill-logo {
+    margin: 0px 0px 0px 300px;
+    display: block;
+    width: 20%;
+    height: 20%;
+}
+
+body {
+    margin: 30px;
+    border-radius: 25px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px 15px 0 0;
+} 
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #ecf0f1;
+}
+
+.column {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 10px 10px 8px #1312128b;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.time {
+    color: #95acae;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.column h2 {
+    font-size: 20px;
+} 
+
+.column p {
+    color: #7f8c8d;
+}
+
+button {
+    display: inline-block;
+    padding: 7px ;
+    margin-top: 7px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+} 
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgb(9, 115, 244);
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about {
+    text-align: left ;
+    padding: 1px 20px 20px 20px;
+    background-color: #327eb1d5;
+    color: #fff;
+    
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    border-radius: 0 0 15px 15px;
+    background-color: #2c3e50d7;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+}
